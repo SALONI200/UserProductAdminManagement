@@ -1,5 +1,13 @@
 # UserProductAdminManagement
 
+A Node.js application using Express and MongoDB to manage user accounts and products with different access levels for admins and regular users.
+
+Features
+User Management: Users can sign up and sign in.
+Admin Management: Only one admin can manage users and products.
+Product Management: Users can add products, and the admin can display, update, or delete products.
+Security: JSON Web Token (JWT) for authentication and authorization.
+
 Usage
 Start the server:
 npm start
